@@ -53,14 +53,7 @@ const ExpenseList = ({ classes }) => {
 					</TableBody>
 				</Table>
 			</Paper>
-			<Button 
-				type="button"
-				variant="contained"
-				color="primary"
-				onClick={getexpenses}
-			>
-				Get List
-			</Button>
+			
 		</div>
 	);
 };

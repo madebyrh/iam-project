@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar'
 
 const Nav = () => {
 	return (
-		<div>
+		<AppBar position="static">
+		<Toolbar>
+		
 			<Link to='/'>
 				<h1>Home</h1>
 			</Link>
@@ -13,7 +17,9 @@ const Nav = () => {
 			<Link to='/memo'>
 				<h1>Memo</h1>
 			</Link>
-		</div>
+		
+		</Toolbar>
+		</AppBar>
 	);
 };
 
